@@ -6,15 +6,16 @@
 <title>White Tiger - Visitor Registration</title>
 <style>
   :root{
-    --bg:#14161a;
-    --panel:#1d2026;
+    --bg:#eef0f2;
+    --panel:#ffffff;
     --accent:#e8590c;
     --accent-dark:#c94e0a;
-    --text:#f2f2f2;
-    --muted:#9aa0a6;
-    --border:#2c3038;
-    --error:#ff6b6b;
-    --success:#2fbf71;
+    --text:#1c1e22;
+    --muted:#6b7076;
+    --border:#d8dade;
+    --input-bg:#fafafb;
+    --error:#c9302c;
+    --success:#1a7f4e;
   }
   *{box-sizing:border-box;}
   body{
@@ -34,7 +35,7 @@
     min-height:100vh;
   }
   header{
-    background:linear-gradient(135deg,#0f1114,#1d2026);
+    background:#ffffff;
     border-bottom:3px solid var(--accent);
     padding:28px 20px 22px 20px;
     text-align:center;
@@ -49,7 +50,7 @@
     font-size:28px;
     font-weight:800;
     letter-spacing:2px;
-    color:#fff;
+    color:#1c1e22;
     margin:0;
   }
   header .sub{
@@ -96,7 +97,7 @@
     font-size:16px;
     border-radius:8px;
     border:1.5px solid var(--border);
-    background:#12141a;
+    background:var(--input-bg);
     color:var(--text);
     outline:none;
   }
@@ -117,7 +118,7 @@
     display:flex;
     align-items:center;
     gap:10px;
-    background:#12141a;
+    background:var(--input-bg);
     border:1.5px solid var(--border);
     border-radius:8px;
     padding:12px 14px;
